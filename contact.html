@@ -1,81 +1,102 @@
 <!DOCTYPE html>
 <html>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <head>
-     <style>
+    <!--Metadata - Title,author, desc,keywords,etc-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="author" content="Stephanos Ioannou">
+    <meta name="description" content="John Doe Photography Company">
+    <meta name="keywords" content="Photography,Camera">
+    <title>JD Photography</title>
+    <!--Favicon Compatibility-->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--Importing Icon Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Importing google fonts -->
+    <style>
         @import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre');
     </style>
-    <link rel= "stylesheet" href = "style.css">
-    
-    <title>JD Photography</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/datepicker.js"></script>
-
 </head>
-
 <!--Body of the html-->
 <body>
-
-<!--Navigation Bar-->
-<ul>
-  <li><a class="active" href="contact.html">Contact</a></li>
-  <li><a  href="about.html">About</a></li>
-  <li><a  href="index.html">Home</a></li>
-</ul>
-
-<!-- About we have two columns.One of the image and one of the bio-->
-<div class= "section">Contact Details</div>
-<div class="row">
-    <div class= "column">
-            <h3>Address:</h3> <p>Oikonomou Constantinou 20,Strovolos,Nicosia,Cyprus</p></h3>
+    <!--Navigation Bar-->
+    <ul>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+    <!-- Contact Details in three columns-->
+    <div class="section">Contact Details</div>
+    <div class="row">
+        <div class="column">
+            <h3>Address:</h3>
+            <p>Oikonomou Constantinou 20<br>Strovolos, Nicosia<br>Cyprus</p>
+            </h3>
+        </div>
+        <div class="column">
+            <h3>Opening Hours:</h3>
+            <p>10:00-17:00 Mon-Fri</p>
+            </h3>
+        </div>
+        <div class="column">
+            <h3>Telephone</h3>
+            <p>+357 99113894</p>
+            </h3>
+        </div>
     </div>
-    <div class= "column">
-            <h3>Opening Hours:</h3> <p>10:00-17:00 Mon-Fri</p></h3>
-    </div>
-    <div class= "column">
-            <h3>Telephone</h3> <p>+357 99113894</p></h3>
-    </div>
-</div>
-<div class= "section">Contact Form</div>
-
-<div class="form_container">
-    
-    <label for="fname">First Name</label>
-    <input type="text" name="firstname" placeholder="Your name..">
-    <label for="lname">Last Name</label>
-    <input type="text"  name="lastname" placeholder="Your last name..">
-    <label for="lemail">Email</label>
-    <input type="text" name="lastname" placeholder="@ email ..">
-    <label for="subject">Subject</label>
-    <input type="text" name="subject" placeholder="Subject.." >
-    <label for="text">Message</label>
-    <textarea id="text" name="subject"  style="height:200px"></textarea>
-    <div class="row" style = "padding : 0px;">
-            <div class= "column">
-                    <label for="text">Date</label>
-                    <input type="text" class="datepicker"/>  
+    <!-- Contact Form -->
+    <div class="section">Contact Form</div>
+    <div class="form_container">
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" placeholder="Your last name..">
+        <label for="lemail">Email</label>
+        <input type="text" placeholder="@ email ..">
+        <label for="subject">Subject</label>
+        <input type="text" placeholder="Subject..">
+        <label for="text">Message</label>
+        <textarea id="text" style="height:200px"></textarea>
+        <!--Date and Time-->
+        <div class="row" style="padding : 0px;">
+            <div class="column">
+                <label for="text">Date</label>
+                <input type="text" class="datepicker" />
             </div>
-            <div class= "column">
-                    <label for="text">Time</label>
-                    <input type="text" name="subject" placeholder="Example : 17:00" >
+            <div class="column">
+                <label for="text">Time</label>
+                <input type="text" name="subject" placeholder="Example : 17:00">
             </div>
+        </div>
+        <input type="submit" value="Send The Form">
+        </form>
     </div>
-   
-
-
-    <input type="submit" value="Send The Form">
-   
-  </form>
-</div>
-
-<div class ="footer">
+<!--Footer Section-->
+    <div class="footer">
         <h3 style="color :black">Copyrights 2018 JD Photography</h3>
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-google"></a>
     </div>
 </body>
+
 </html>
-      

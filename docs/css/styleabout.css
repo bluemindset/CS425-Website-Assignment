@@ -61,10 +61,8 @@
     border-bottom-right-radius: 160px;
     border-bottom-left-radius: 16px; 
   }
-  @media only screen and (min-width: 641px){
-    .column_about {
-      width: 50%;
-    }
+  @media only screen and (max-width: 641px){
+   
       .portait{
           padding-left: 0px;
           padding-top: 0px;

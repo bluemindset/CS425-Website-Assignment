@@ -1,6 +1,6 @@
 # cs425_fall18_hm02
-##Stefanos Ioannou 
-###945470
+## Stefanos Ioannou 
+### 945470
 
 
 1. Fully Responsive Website - Desktop and Mobile

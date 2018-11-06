@@ -388,3 +388,18 @@ color: white;
   color: white;
   text-align: center;
 }
+
+@media only screen and (max-width: 641px){
+  .banner_company{
+      top:15%;
+      left:50%;
+      width: 30%;
+  }
+  /*Based on the middle banner insert it a little lower*/
+  .banner_name{
+      top:18%;
+      left:50%;
+      width: 15%;
+  }
+
+}

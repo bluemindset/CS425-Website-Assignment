@@ -10,3 +10,4 @@
 5. Icon library used
 6. Build from scratch and no frameworks
 7. Supported by all modern browsers / Tested
+8. Favicon added

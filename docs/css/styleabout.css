@@ -65,9 +65,16 @@
     .column_about {
       width: 50%;
     }
-    
+     .portait {
+      width: 50%;
+    }
+    .bio {
+      width: 40%;
+    }
   }
-  
+
+
+
   @media only screen and (min-width: 1025px){
     .portait {
       width: 50%;

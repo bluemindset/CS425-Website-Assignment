@@ -401,5 +401,9 @@ color: white;
       left:50%;
       width: 15%;
   }
-
 }
+@media only screen and (max-width: 641px){
+  margin-left: 0px;
+  margin-right: 0px;
+}
+

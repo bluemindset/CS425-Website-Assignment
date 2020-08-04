@@ -1,7 +1,4 @@
-# cs425_fall18_hm02
-## Stefanos Ioannou 945470
-### HTML/CSS Website 
-
+# HTML/CSS Website for CS425 Course
 
 1. Fully Responsive Website - Desktop and Mobile
 2. Google fonts added
